@@ -6,6 +6,7 @@ libgo
 *.so
 *.dylib
 *.dll
+*.a
 
 # Ignore binary output folders
 bin/

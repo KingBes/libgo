@@ -1,4 +1,4 @@
-package libgo
+package main
 
 /*
 #include <stdlib.h>
@@ -129,4 +129,8 @@ func formatBytes(b int64) string {
 		exp++
 	}
 	return fmt.Sprintf("%.1f %ciB", float64(b)/float64(div), "KMGTPE"[exp])
+}
+
+func main() {
+
 }

@@ -1,7 +1,7 @@
 module libgo
 
-#flag -I@VMODROOT/include
-#flag windows @VMODROOT/lib/download.a
+#flag -I@VMODROOT/go
+#flag windows @VMODROOT/go/download.a
 
 #include "download.h"
 
