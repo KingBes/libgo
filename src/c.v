@@ -1,8 +1,8 @@
 module libgo
 
 #flag -I@VMODROOT/go
-#flag windows @VMODROOT/go/download.a
+#flag @VMODROOT/go/libgo.a
 
-#include "download.h"
+#include "libgo.h"
 
 pub fn C.download_file(c_url &char,	c_path &char) &char
