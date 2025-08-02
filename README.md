@@ -1,8 +1,9 @@
 # libgo
 
 Export the clang library from GoLang for use in VLang.
+Use the Go library to address the existing bugs in Vlang until the bugs are fixed.
 
-install
+## install
 
 ```bash
 v install KingBes.libgo
