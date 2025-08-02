@@ -2,4 +2,4 @@
 cd $(dirname $0)
 
 # 编译
-go build -o libgo.a -buildmode=c-archive ./libgo.go
+go build -o libgo.a -buildmode=c-archive .
