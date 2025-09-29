@@ -11,8 +11,9 @@ v install KingBes.libgo
 
 ```bash
 # The Golang environment needs to be installed.
-~/.vmodules/kingbes/libgo/go/build.sh  # linux
-~/.vmodules/kingbes/libgo/go/build.cmd # windows
+~/.vmodules/kingbes/libgo/go/linux.sh  # linux
+~/.vmodules/kingbes/libgo/go/macos.sh  # macos
+~/.vmodules/kingbes/libgo/go/windows.cmd # windows
 ```
 
 ```v
